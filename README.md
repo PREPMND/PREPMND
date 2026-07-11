@@ -33,11 +33,15 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 <div align="center">
 
+<div align="center">
+
 <img
-  src="./assets/system-flow.svg"
-  width="95%"
-  alt="Backend system flow"
+  src="https://raw.githubusercontent.com/PREPMND/PREPMND/main/assets/system-flow.svg"
+  width="100%"
+  alt="PREYTweet backend system events"
 />
+
+</div>
 
 </div>
 ## `> engineering_stack`
