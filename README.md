@@ -5,12 +5,13 @@
 </a>
 <a href="https://github.com/PREPMND">
   <img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white"/>
-</a></div><br/>"> whoami"
+</a></div><br/>## `> whoami`
 
+```text
 Srijan Shukla
-B.Tech Computer Science @ Maharaja Agrasen Institute of Technology
+B.Tech Computer Science
+Maharaja Agrasen Institute of Technology
 CGPA: 9.48 / 10
-
 I build full-stack applications with a growing focus on backend systems.
 
 Interested in:
@@ -21,21 +22,42 @@ Interested in:
   ├── database modelling
   └── data structures & algorithms
 
-<br/>"> engineering_stack"
+<br/> 
+## `> engineering_stack`
 
-<div align="center">Languages
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,js,c,python&theme=dark" />Backend & Data
+<h3>Languages</h3>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis&theme=dark" />Frontend
+<img src="https://skillicons.dev/icons?i=cpp,js,c,python&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite&theme=dark" />Infrastructure & Tools
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman&theme=dark" /><br/><img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
+<h3>Backend & Data</h3>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis&theme=dark" />
+
+<br/><br/>
+
+<h3>Frontend</h3>
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,vite&theme=dark" />
+
+<br/><br/>
+
+<h3>Infrastructure & Tools</h3>
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman&theme=dark" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
 <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
 <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_APIs-2563EB?style=flat-square"/></div><br/>"> flagship_project"
+<img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square"/>
+
+</div><br/>"> flagship_project"
 
 <table>
 <tr>
