@@ -1,0 +1,170 @@
+<svg width="900" height="440" viewBox="0 0 900 440"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <style>
+    .title {
+      font: 700 18px 'Courier New', monospace;
+      fill: #e2e8f0;
+    }
+
+    .text {
+      font: 600 13px 'Courier New', monospace;
+      fill: #94a3b8;
+    }
+
+    .node {
+      fill: #0f172a;
+      stroke: #334155;
+      stroke-width: 1.5;
+    }
+
+    .link {
+      stroke: #1e3a5f;
+      stroke-width: 1.5;
+      opacity: .7;
+    }
+
+    .packet {
+      fill: #60a5fa;
+      filter: url(#glow);
+    }
+
+    .pulse {
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    .p2 { animation-delay: .4s; }
+    .p3 { animation-delay: .8s; }
+    .p4 { animation-delay: 1.2s; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .55; }
+      50% { opacity: 1; filter: url(#glow); }
+    }
+  </style>
+</defs>
+
+<rect width="900" height="440" rx="18" fill="#020617"/>
+<rect x="1" y="1" width="898" height="438"
+rx="17" fill="none" stroke="#1e293b"/>
+
+<text x="450" y="42"
+text-anchor="middle"
+class="title">
+ENGINEERING STACK
+</text>
+
+<!-- CONNECTIONS -->
+
+<line x1="450" y1="220" x2="150" y2="100" class="link"/>
+<line x1="450" y1="220" x2="330" y2="90" class="link"/>
+<line x1="450" y1="220" x2="570" y2="90" class="link"/>
+<line x1="450" y1="220" x2="750" y2="100" class="link"/>
+
+<line x1="450" y1="220" x2="130" y2="330" class="link"/>
+<line x1="450" y1="220" x2="290" y2="350" class="link"/>
+<line x1="450" y1="220" x2="610" y2="350" class="link"/>
+<line x1="450" y1="220" x2="770" y2="330" class="link"/>
+
+<!-- CORE -->
+
+<circle cx="450" cy="220" r="75"
+fill="#071426"
+stroke="#2563eb"
+stroke-width="2"
+class="pulse"/>
+
+<text x="450" y="210"
+text-anchor="middle"
+class="title">
+FULL-STACK
+</text>
+
+<text x="450" y="234"
+text-anchor="middle"
+class="text">
+BACKEND FOCUSED
+</text>
+
+<!-- NODES -->
+
+<g class="pulse">
+<circle cx="150" cy="100" r="53" class="node"/>
+<text x="150" y="96" text-anchor="middle" class="title">C++</text>
+<text x="150" y="118" text-anchor="middle" class="text">DSA</text>
+</g>
+
+<g class="pulse p2">
+<circle cx="330" cy="90" r="53" class="node"/>
+<text x="330" y="86" text-anchor="middle" class="title">REACT</text>
+<text x="330" y="108" text-anchor="middle" class="text">TANSTACK</text>
+</g>
+
+<g class="pulse p3">
+<circle cx="570" cy="90" r="53" class="node"/>
+<text x="570" y="86" text-anchor="middle" class="title">NODE</text>
+<text x="570" y="108" text-anchor="middle" class="text">EXPRESS</text>
+</g>
+
+<g class="pulse p4">
+<circle cx="750" cy="100" r="53" class="node"/>
+<text x="750" y="96" text-anchor="middle" class="title">SOCKET.IO</text>
+<text x="750" y="118" text-anchor="middle" class="text">REAL-TIME</text>
+</g>
+
+<g class="pulse p3">
+<circle cx="130" cy="330" r="53" class="node"/>
+<text x="130" y="326" text-anchor="middle" class="title">MONGODB</text>
+<text x="130" y="348" text-anchor="middle" class="text">AGGREGATE</text>
+</g>
+
+<g class="pulse p4">
+<circle cx="290" cy="350" r="53" class="node"/>
+<text x="290" y="346" text-anchor="middle" class="title">REDIS</text>
+<text x="290" y="368" text-anchor="middle" class="text">CACHE</text>
+</g>
+
+<g class="pulse p2">
+<circle cx="610" cy="350" r="53" class="node"/>
+<text x="610" y="346" text-anchor="middle" class="title">DOCKER</text>
+<text x="610" y="368" text-anchor="middle" class="text">RUNTIME</text>
+</g>
+
+<g class="pulse">
+<circle cx="770" cy="330" r="53" class="node"/>
+<text x="770" y="326" text-anchor="middle" class="title">CLOUDINARY</text>
+<text x="770" y="348" text-anchor="middle" class="text">MEDIA</text>
+</g>
+
+<!-- MOVING SIGNALS -->
+
+<circle r="4" class="packet">
+<animateMotion dur="3s" repeatCount="indefinite"
+path="M450 220 L570 90"/>
+</circle>
+
+<circle r="4" class="packet">
+<animateMotion begin=".6s" dur="3s" repeatCount="indefinite"
+path="M450 220 L290 350"/>
+</circle>
+
+<circle r="4" class="packet">
+<animateMotion begin="1.2s" dur="3s" repeatCount="indefinite"
+path="M450 220 L750 100"/>
+</circle>
+
+<circle r="4" class="packet">
+<animateMotion begin="1.8s" dur="3s" repeatCount="indefinite"
+path="M450 220 L130 330"/>
+</circle>
+
+</svg>
