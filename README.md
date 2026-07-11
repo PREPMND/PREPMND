@@ -31,20 +31,30 @@ CGPA: 9.48 / 10
 
 I build full-stack applications with a growing focus on **backend systems and application reliability**.
 
-<table>
-<tr>
-<td>⚙️ API Architecture</td>
-<td>🔐 Auth & Authorization</td>
-</tr>
-<tr>
-<td>⚡ Real-Time Systems</td>
-<td>🧠 Caching & Reliability</td>
-</tr>
-<tr>
-<td>🗄️ Database Modelling</td>
-<td>🧩 Data Structures & Algorithms</td>
-</tr>
-</table>
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=900&color=60A5FA&center=true&vCenter=true&width=800&lines=Express.js+%E2%86%92+RESTful+API+Architecture;JWT+%2B+HTTP-only+Cookies+%E2%86%92+Secure+Authentication;Socket.IO+%E2%86%92+Real-Time+Communication;Redis+%E2%86%92+Caching+%26+Request+Reliability;MongoDB+Aggregation+%E2%86%92+Relationship-Based+Data;Docker+%E2%86%92+Consistent+Runtime+Environments"
+    alt="Engineering Focus"
+  />
+</a>
+
+<br/><br/>
+
+<code>Express.js</code>
+&nbsp;→&nbsp;
+<code>JWT</code>
+&nbsp;→&nbsp;
+<code>Socket.IO</code>
+&nbsp;→&nbsp;
+<code>Redis</code>
+&nbsp;→&nbsp;
+<code>MongoDB</code>
+&nbsp;→&nbsp;
+<code>Docker</code>
+
+</div>
 
 <br/>
 
