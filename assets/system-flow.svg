@@ -1,0 +1,188 @@
+<svg width="900" height="230" viewBox="0 0 900 230"
+     xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .title {
+    font: 600 17px 'Courier New', monospace;
+    fill: #e2e8f0;
+  }
+
+  .sub {
+    font: 14px 'Courier New', monospace;
+    fill: #64748b;
+  }
+
+  .status {
+    font: 600 13px 'Courier New', monospace;
+    fill: #60a5fa;
+  }
+
+  .service {
+    opacity: 0;
+    animation: cycle 16s infinite;
+  }
+
+  .s1 { animation-delay: 0s; }
+  .s2 { animation-delay: 4s; }
+  .s3 { animation-delay: 8s; }
+  .s4 { animation-delay: 12s; }
+
+  @keyframes cycle {
+    0%   { opacity: 0; transform: translateY(8px); }
+    8%   { opacity: 1; transform: translateY(0); }
+    20%  { opacity: 1; transform: translateY(0); }
+    25%  { opacity: 0; transform: translateY(-8px); }
+    100% { opacity: 0; }
+  }
+
+  .pulse {
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: .35; }
+    50% { opacity: 1; }
+  }
+</style>
+
+<rect width="900" height="230" rx="16" fill="#020617"/>
+<rect x="1" y="1" width="898" height="228"
+      rx="15" fill="none" stroke="#1e293b"/>
+
+<!-- REDIS -->
+
+<g class="service s1">
+
+  <image
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+    x="110" y="65" width="75" height="75"/>
+
+  <text x="220" y="85" class="status">
+    REDIS / CACHE
+  </text>
+
+  <text x="220" y="115" class="title">
+    CACHE HIT
+  </text>
+
+  <text x="220" y="145" class="sub">
+    response served without querying MongoDB
+  </text>
+
+  <circle cx="745" cy="112" r="7"
+          fill="#60a5fa" class="pulse"/>
+
+  <text x="765" y="117" class="status">
+    HIT
+  </text>
+
+</g>
+
+
+<!-- RATE LIMITER -->
+
+<g class="service s2">
+
+  <text x="110" y="95"
+        font-size="62"
+        font-family="Courier New"
+        font-weight="bold"
+        fill="#ef4444">
+    429
+  </text>
+
+  <text x="220" y="85" class="status">
+    API / RATE LIMITER
+  </text>
+
+  <text x="220" y="115" class="title">
+    REQUEST BLOCKED
+  </text>
+
+  <text x="220" y="145" class="sub">
+    request threshold exceeded for current window
+  </text>
+
+  <circle cx="745" cy="112" r="7"
+          fill="#ef4444" class="pulse"/>
+
+  <text x="765" y="117"
+        class="status"
+        fill="#ef4444">
+    LIMITED
+  </text>
+
+</g>
+
+
+<!-- JWT -->
+
+<g class="service s3">
+
+  <image
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jsonwebtokens/jsonwebtokens-original.svg"
+    x="110" y="65" width="75" height="75"/>
+
+  <text x="220" y="85" class="status">
+    AUTH / JWT
+  </text>
+
+  <text x="220" y="115" class="title">
+    ACCESS TOKEN EXPIRED
+  </text>
+
+  <text x="220" y="145" class="sub">
+    refresh token → new access token → retry request
+  </text>
+
+  <circle cx="745" cy="112" r="7"
+          fill="#60a5fa" class="pulse"/>
+
+  <text x="765" y="117" class="status">
+    RETRY
+  </text>
+
+</g>
+
+
+<!-- SOCKET -->
+
+<g class="service s4">
+
+  <circle cx="147" cy="102"
+          r="40"
+          fill="#0f172a"
+          stroke="#60a5fa"
+          stroke-width="2"/>
+
+  <text x="147" y="109"
+        text-anchor="middle"
+        font-size="27"
+        font-family="Courier New"
+        fill="#ffffff">
+    IO
+  </text>
+
+  <text x="220" y="85" class="status">
+    SOCKET.IO / ROOM
+  </text>
+
+  <text x="220" y="115" class="title">
+    MESSAGE DELIVERED
+  </text>
+
+  <text x="220" y="145" class="sub">
+    event emitted to active conversation room
+  </text>
+
+  <circle cx="745" cy="112" r="7"
+          fill="#22c55e" class="pulse"/>
+
+  <text x="765" y="117"
+        class="status">
+    LIVE
+  </text>
+
+</g>
+
+</svg>
