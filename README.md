@@ -33,26 +33,69 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=900&color=60A5FA&center=true&vCenter=true&width=800&lines=Express.js+%E2%86%92+RESTful+API+Architecture;JWT+%2B+HTTP-only+Cookies+%E2%86%92+Secure+Authentication;Socket.IO+%E2%86%92+Real-Time+Communication;Redis+%E2%86%92+Caching+%26+Request+Reliability;MongoDB+Aggregation+%E2%86%92+Relationship-Based+Data;Docker+%E2%86%92+Consistent+Runtime+Environments"
-    alt="Engineering Focus"
-  />
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<br/><br/>
+<h3>01 // BACKEND SYSTEMS</h3>
 
-<code>Express.js</code>
-&nbsp;→&nbsp;
-<code>JWT</code>
-&nbsp;→&nbsp;
-<code>Socket.IO</code>
-&nbsp;→&nbsp;
-<code>Redis</code>
-&nbsp;→&nbsp;
-<code>MongoDB</code>
-&nbsp;→&nbsp;
-<code>Docker</code>
+<code>Node.js</code> <code>Express.js</code><br/><br/>
+
+RESTful API architecture<br/>
+Middleware-driven request flow<br/>
+Reusable controller & utility layers
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>02 // STATE & DATA</h3>
+
+<code>MongoDB</code> <code>Redis</code><br/><br/>
+
+Aggregation pipelines<br/>
+Relationship-based modelling<br/>
+Caching & data access strategies
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>03 // COMMUNICATION</h3>
+
+<code>Socket.IO</code> <code>JWT</code><br/><br/>
+
+Real-time conversation rooms<br/>
+Access & refresh token flows<br/>
+Protected API boundaries
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>04 // RELIABILITY</h3>
+
+<code>Docker</code> <code>Rate Limiting</code><br/><br/>
+
+Containerized environments<br/>
+Request traffic control<br/>
+Failure-aware API design
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<pre>
+SYSTEM_FOCUS
+├── backend architecture
+├── state & data flow
+├── real-time communication
+└── reliability under failure
+</pre>
 
 </div>
 
