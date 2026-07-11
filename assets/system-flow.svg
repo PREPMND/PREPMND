@@ -1,40 +1,371 @@
-<svg width="1100" height="320" viewBox="0 0 1100 320"
-xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1100 320"
+     width="1100"
+     height="320">
 
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#020617"/>
-    <stop offset="55%" stop-color="#071426"/>
-    <stop offset="100%" stop-color="#0f172a"/>
-  </linearGradient>
+<style>
+text {
+  font-family: "Courier New", monospace;
+}
 
-  <linearGradient id="jwt" x1="0" x2="1">
-    <stop offset="0%" stop-color="#a855f7"/>
-    <stop offset="50%" stop-color="#ec4899"/>
-    <stop offset="100%" stop-color="#22d3ee"/>
-  </linearGradient>
+.scene {
+  opacity: 0;
+  animation: show 20s infinite;
+}
 
-  <linearGradient id="socket" x1="0" x2="1">
-    <stop offset="0%" stop-color="#2563eb"/>
-    <stop offset="100%" stop-color="#22d3ee"/>
-  </linearGradient>
+.redis { animation-delay: 0s; }
+.limit { animation-delay: 5s; }
+.jwt { animation-delay: 10s; }
+.socket { animation-delay: 15s; }
 
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-</defs>
+@keyframes show {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  20% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
+}
 
-<!-- BACKGROUND -->
+.dot {
+  animation: pulse 1.5s infinite;
+}
 
-<rect width="1100" height="320" rx="24" fill="url(#bg)"/>
+@keyframes pulse {
+  0%, 100% { opacity: .3; }
+  50% { opacity: 1; }
+}
+</style>
 
-<rect
-x="1"
-y="1"
+<rect width="1100" height="320" rx="22" fill="#020617"/>
+<rect x="1" y="1" width="1098" height="318"
+      rx="21" fill="none" stroke="#1e293b"/>
+
+<circle cx="28" cy="27" r="6" fill="#ef4444"/>
+<circle cx="50" cy="27" r="6" fill="#eab308"/>
+<circle cx="72" cy="27" r="6" fill="#22c55e"/>
+
+<text x="550" y="32"
+      text-anchor="middle"
+      font-size="13"
+      fill="#64748b">
+PREYTWEET // SYSTEM EVENTS
+</text>
+
+<circle cx="1010" cy="27" r="5"
+        fill="#22c55e"
+        class="dot"/>
+
+<text x="1025" y="32"
+      font-size="12"
+      font-weight="bold"
+      fill="#22c55e">
+LIVE
+</text>
+
+<line x1="0" y1="54" x2="1100" y2="54"
+      stroke="#1e293b"/>
+
+
+<!-- REDIS -->
+
+<g class="scene redis">
+
+  <rect x="75" y="90"
+        width="170" height="145"
+        rx="20"
+        fill="#19090d"
+        stroke="#ef4444"
+        stroke-width="2"/>
+
+  <ellipse cx="160" cy="125"
+           rx="48" ry="16"
+           fill="#fb7185"/>
+
+  <ellipse cx="160" cy="150"
+           rx="48" ry="16"
+           fill="#dc2626"/>
+
+  <ellipse cx="160" cy="175"
+           rx="48" ry="16"
+           fill="#991b1b"/>
+
+  <text x="160" y="211"
+        text-anchor="middle"
+        font-size="16"
+        font-weight="bold"
+        fill="#fb7185">
+REDIS
+  </text>
+
+  <text x="300" y="115"
+        font-size="15"
+        font-weight="bold"
+        fill="#fb7185">
+REDIS / CACHE LAYER
+  </text>
+
+  <text x="300" y="160"
+        font-size="27"
+        font-weight="bold"
+        fill="#f8fafc">
+CACHE HIT
+  </text>
+
+  <text x="300" y="195"
+        font-size="16"
+        fill="#94a3b8">
+response served without querying MongoDB
+  </text>
+
+  <text x="300" y="222"
+        font-size="13"
+        fill="#64748b">
+redis → response :: fast path
+  </text>
+
+  <circle cx="910" cy="157"
+          r="10"
+          fill="#ef4444"
+          class="dot"/>
+
+  <text x="940" y="163"
+        font-size="15"
+        font-weight="bold"
+        fill="#fb7185">
+CACHE_HIT
+  </text>
+
+</g>
+
+
+<!-- RATE LIMIT -->
+
+<g class="scene limit">
+
+  <circle cx="160" cy="157"
+          r="70"
+          fill="#190708"
+          stroke="#ef4444"
+          stroke-width="3"/>
+
+  <circle cx="160" cy="157"
+          r="54"
+          fill="none"
+          stroke="#7f1d1d"
+          stroke-width="2"
+          stroke-dasharray="7 7"/>
+
+  <text x="160" y="173"
+        text-anchor="middle"
+        font-size="54"
+        font-weight="bold"
+        fill="#ef4444">
+429
+  </text>
+
+  <text x="300" y="115"
+        font-size="15"
+        font-weight="bold"
+        fill="#f87171">
+EXPRESS / RATE LIMITER
+  </text>
+
+  <text x="300" y="160"
+        font-size="27"
+        font-weight="bold"
+        fill="#f8fafc">
+REQUEST BLOCKED
+  </text>
+
+  <text x="300" y="195"
+        font-size="16"
+        fill="#94a3b8">
+request threshold exceeded for active window
+  </text>
+
+  <text x="300" y="222"
+        font-size="13"
+        fill="#64748b">
+HTTP 429 :: traffic control engaged
+  </text>
+
+  <circle cx="910" cy="157"
+          r="10"
+          fill="#ef4444"
+          class="dot"/>
+
+  <text x="940" y="163"
+        font-size="15"
+        font-weight="bold"
+        fill="#f87171">
+LIMITED
+  </text>
+
+</g>
+
+
+<!-- JWT -->
+
+<g class="scene jwt">
+
+  <circle cx="160" cy="157"
+          r="70"
+          fill="#10091b"
+          stroke="#a855f7"
+          stroke-width="3"/>
+
+  <circle cx="160" cy="157"
+          r="52"
+          fill="none"
+          stroke="#ec4899"
+          stroke-width="3"
+          stroke-dasharray="6 8"/>
+
+  <circle cx="160" cy="157"
+          r="38"
+          fill="#171027"
+          stroke="#22d3ee"/>
+
+  <text x="160" y="153"
+        text-anchor="middle"
+        font-size="27"
+        font-weight="bold"
+        fill="#f8fafc">
+JWT
+  </text>
+
+  <text x="160" y="179"
+        text-anchor="middle"
+        font-size="11"
+        fill="#c084fc">
+ACCESS
+  </text>
+
+  <text x="300" y="115"
+        font-size="15"
+        font-weight="bold"
+        fill="#c084fc">
+AUTH / TOKEN FLOW
+  </text>
+
+  <text x="300" y="160"
+        font-size="27"
+        font-weight="bold"
+        fill="#f8fafc">
+ACCESS TOKEN EXPIRED
+  </text>
+
+  <text x="300" y="195"
+        font-size="16"
+        fill="#94a3b8">
+refresh token → new access token → retry request
+  </text>
+
+  <text x="300" y="222"
+        font-size="13"
+        fill="#64748b">
+axios interceptor :: authentication recovered
+  </text>
+
+  <circle cx="910" cy="157"
+          r="10"
+          fill="#a855f7"
+          class="dot"/>
+
+  <text x="940" y="163"
+        font-size="15"
+        font-weight="bold"
+        fill="#c084fc">
+RETRY
+  </text>
+
+</g>
+
+
+<!-- SOCKET -->
+
+<g class="scene socket">
+
+  <circle cx="160" cy="157"
+          r="70"
+          fill="#071522"
+          stroke="#22d3ee"
+          stroke-width="3"/>
+
+  <circle cx="160" cy="157"
+          r="52"
+          fill="none"
+          stroke="#2563eb"
+          stroke-width="3"/>
+
+  <text x="160" y="153"
+        text-anchor="middle"
+        font-size="28"
+        font-weight="bold"
+        fill="#f8fafc">
+IO
+  </text>
+
+  <text x="160" y="179"
+        text-anchor="middle"
+        font-size="11"
+        fill="#22d3ee">
+SOCKET
+  </text>
+
+  <text x="300" y="115"
+        font-size="15"
+        font-weight="bold"
+        fill="#22d3ee">
+SOCKET.IO / CONVERSATION ROOM
+  </text>
+
+  <text x="300" y="160"
+        font-size="27"
+        font-weight="bold"
+        fill="#f8fafc">
+MESSAGE DELIVERED
+  </text>
+
+  <text x="300" y="195"
+        font-size="16"
+        fill="#94a3b8">
+event emitted to active conversation room
+  </text>
+
+  <text x="300" y="222"
+        font-size="13"
+        fill="#64748b">
+room event :: persistent message flow
+  </text>
+
+  <circle cx="910" cy="157"
+          r="10"
+          fill="#22c55e"
+          class="dot"/>
+
+  <text x="940" y="163"
+        font-size="15"
+        font-weight="bold"
+        fill="#4ade80">
+DELIVERED
+  </text>
+
+</g>
+
+
+<text x="35" y="290"
+      font-size="11"
+      fill="#475569">
+SYSTEM EVENT STREAM
+</text>
+
+<line x1="180" y1="286"
+      x2="1060" y2="286"
+      stroke="#1e293b"
+      stroke-dasharray="4 6"/>
+
+</svg>y="1"
 width="1098"
 height="318"
 rx="23"
