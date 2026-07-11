@@ -44,35 +44,91 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 <div align="center">
 
-<h3>Languages</h3>
+<h3>LANGUAGES</h3>
 
-<img src="https://skillicons.dev/icons?i=cpp,js,c,python&theme=dark"/>
-
-<br/><br/>
-
-<h3>Backend & Data</h3>
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=cpp,js,c,python&theme=dark" />
 
 <br/><br/>
 
-<h3>Frontend</h3>
+<h3>BACKEND & API ENGINEERING</h3>
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/REST_APIs-2563EB?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
 
 <br/><br/>
 
-<h3>Infrastructure & Tools</h3>
-
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman&theme=dark"/>
+<code>middleware-driven request flow</code>
+&nbsp;
+<code>access + refresh tokens</code>
+&nbsp;
+<code>real-time rooms</code>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square"/>
+<h3>DATA, CACHING & STORAGE</h3>
+
+<img src="https://skillicons.dev/icons?i=mongodb,redis&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/MongoDB_Aggregation-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis_Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+<img src="https://img.shields.io/badge/Multer-111827?style=for-the-badge"/>
+
+<br/><br/>
+
+<code>aggregation pipelines</code>
+&nbsp;
+<code>cache strategies</code>
+&nbsp;
+<code>media pipelines</code>
+
+<br/><br/>
+
+<h3>FRONTEND & SERVER STATE</h3>
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,vite&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Infinite_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
+<img src="https://img.shields.io/badge/Responsive_UI-0EA5E9?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+
+<br/><br/>
+
+<code>server-state caching</code>
+&nbsp;
+<code>background refetching</code>
+&nbsp;
+<code>incremental loading</code>
+
+<br/><br/>
+
+<h3>INFRASTRUCTURE & DEVELOPER TOOLS</h3>
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Docker-Containerized_Runtime-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/API_Rate_Limiting-Request_Control-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+<br/><br/>
+
+<code>containerized environments</code>
+&nbsp;
+<code>request control</code>
+&nbsp;
+<code>API testing</code>
 
 </div>
 
