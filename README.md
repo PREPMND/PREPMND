@@ -52,17 +52,33 @@ alt="Srijan Shukla engineering stack"
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=cpp,js,c,python,nodejs,express,react,mongodb,redis,docker&theme=dark" />
+<br/><br/>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white&labelColor=010101"/>
+&nbsp;
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white&labelColor=E11D48"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white&labelColor=243B9F"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
-<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
-<img src="https://img.shields.io/badge/Multer-1F2937?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-FB015B?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=D9004F"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Axios-671DDF?style=for-the-badge&logo=axios&logoColor=white&labelColor=4F16B3"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Multer-FFB000?style=for-the-badge&logoColor=111827&labelColor=E69F00"/>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0891B2"/>
+&nbsp;
+<img src="https://img.shields.io/badge/REST_API-2563EB?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1D4ED8"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Cloud_Media_Pipeline-F97316?style=for-the-badge&logo=cloudinary&logoColor=white&labelColor=EA580C"/>
+
+</p>
 </div>
 
 </div>
