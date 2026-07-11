@@ -33,26 +33,11 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 <div align="center">
 
-<a href="https://git.io/typing-svg">
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=750&color=60A5FA&center=true&vCenter=true&repeat=true&width=820&height=45&lines=%5BREDIS%5D+CACHE_HIT+%E2%86%92+serving+without+database+query;%5BRATE_LIMITER%5D+429+%E2%86%92+request+threshold+exceeded;%5BAUTH%5D+ACCESS_EXPIRED+%E2%86%92+refresh+%E2%86%92+retry;%5BSOCKET.IO%5D+MESSAGE+%E2%86%92+conversation_room+%E2%86%92+delivered;%5BMONGODB%5D+AGGREGATE+%E2%86%92+channel+%2B+subscription+data;%5BDOCKER%5D+API+%2B+REDIS+%E2%86%92+services+ready"
-alt="Backend System Events"
+  src="./assets/system-flow.svg"
+  width="95%"
+  alt="Backend system flow"
 />
-</a>
-
-<br/>
-
-<code>REDIS::CACHE</code>
-&nbsp;&nbsp;
-<code>HTTP::429</code>
-&nbsp;&nbsp;
-<code>JWT::REFRESH</code>
-&nbsp;&nbsp;
-<code>SOCKET::ROOM</code>
-&nbsp;&nbsp;
-<code>DB::AGGREGATE</code>
-&nbsp;&nbsp;
-<code>DOCKER::SERVICE</code>
 
 </div>
 ## `> engineering_stack`
