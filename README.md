@@ -56,8 +56,6 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 </div>
 
-<br/>
-
 ## `> engineering_stack`
 
 <div align="center">
