@@ -1,108 +1,196 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=180&color=gradient&customColorList=12,20,24,30&text=Srijan%20Shukla&fontColor=F8FAFC&fontSize=44&fontAlignY=42&desc=Backend%20Engineer%20•%20Full%20Stack%20Developer&descAlignY=68&animation=fadeIn"/>
+<img src="./assets/hero.svg" width="100%"/>
 
-<br/>
+# Hi, I'm Srijan Shukla 👋
+
+### Backend Engineer • Full Stack Developer • CSE Undergraduate
+
+Building scalable backend systems, solving algorithmic problems, and creating production-ready web applications.
 
 <p>
-
-<a href="mailto:pretest0505@gmail.com">
-<img src="https://img.shields.io/badge/Email-18181B?style=flat-square&logo=gmail&logoColor=EA4335"/>
-</a>
-
-<a href="https://github.com/PREPMND">
-<img src="https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-18181B?style=flat-square&logo=linkedin&logoColor=0A66C2"/>
-</a>
-
-<a href="https://leetcode.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/LeetCode-18181B?style=flat-square&logo=leetcode&logoColor=FFA116"/>
-</a>
-
+<a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="YOUR_LEETCODE_URL"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
+<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge"/></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 </div>
 
 ---
 
-# Hey, I'm Srijan 👋
+<div align="center">
+<img src="./assets/about-card.svg" width="90%"/>
+</div>
 
-I'm a Computer Science undergraduate passionate about **backend engineering** and **distributed systems**.
+## About Me
 
-I enjoy designing APIs, building real-time applications, exploring caching strategies, and understanding how reliable software behaves under real-world conditions.
-
-Currently focused on:
-
-- Building production-style backend systems
-- Learning Redis, Docker and System Design
-- Solving DSA problems in C++
-- Writing clean, maintainable code
+- 🎓 B.Tech Computer Science Student
+- 💻 Passionate about Backend Engineering
+- ⚡ Strong foundation in DSA using C++
+- 🚀 Building production-ready full-stack applications
+- 🌱 Currently learning System Design, Redis and Docker
+- 🎯 Goal: Software Engineer at top product companies
 
 ---
 
-## Featured Projects
+<div align="center">
+<img src="./assets/divider.svg" width="95%"/>
+</div>
 
-<table>
-<tr>
+# Featured Projects
 
-<td width="50%">
+<div align="center">
 
-### 🚀 PREYTweet
+<img src="./assets/project-card-preytweet.svg" width="90%"/>
 
-Backend-focused social platform inspired by modern applications.
+### PREYTweet
+
+A backend-focused social media platform built with production-oriented architecture.
 
 **Highlights**
 
 - JWT Authentication
+- Refresh Token Flow
 - Redis Caching
-- Socket.IO Messaging
-- Cloudinary Media Pipeline
+- Socket.IO Real-time Messaging
 - Dockerized Backend
+- Cloudinary Media Upload
+- MongoDB Aggregation
+- REST API Design
 
-<br>
+**Tech**
 
-<a href="https://preytweet.netlify.app">
-<img src="https://img.shields.io/badge/Live-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
+`Node.js`
+`Express`
+`MongoDB`
+`Redis`
+`Socket.IO`
+`Docker`
+`Cloudinary`
 
-<a href="https://github.com/PREPMND/ytweet">
-<img src="https://img.shields.io/badge/Source-111827?style=for-the-badge&logo=github"/>
-</a>
+**Repository**
 
-</td>
+https://github.com/PREPMND/ytweet
 
-<td width="50%">
+</div>
 
-### 🎬 PREPWatch
+---
 
-Movie discovery platform built around efficient API consumption.
+<div align="center">
 
-**Highlights**
+<img src="./assets/project-card-prepwatch.svg" width="90%"/>
+
+### PREPWatch
+
+Movie discovery application focused on performance and user experience.
+
+**Features**
 
 - TMDB API
+- Infinite Scroll
+- Search
+- Favorites
 - TanStack Query
-- Infinite Scrolling
-- Persistent Favourites
+- React Router
 - Responsive UI
+- Lazy Loading
 
-<br>
+**Tech**
 
-<a href="https://prepwatch.netlify.app">
-<img src="https://img.shields.io/badge/Live-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
+`React`
+`TanStack Query`
+`Tailwind CSS`
+`Axios`
 
-<a href="https://github.com/PREPMND/pretanstack">
-<img src="https://img.shields.io/badge/Source-111827?style=for-the-badge&logo=github"/>
-</a>
+Repository
 
-</td>
+https://github.com/PREPMND/PREPWatch
 
-</tr>
-</table>
+</div>
 
+---
+
+<div align="center">
+<img src="./assets/divider.svg" width="95%"/>
+</div>
+
+# Engineering Stack
+
+<div align="center">
+<img src="./assets/tech-stack.svg" width="92%"/>
+</div>
+
+---
+
+<div align="center">
+<img src="./assets/divider.svg" width="95%"/>
+</div>
+
+# Coding Journey
+
+<div align="center">
+<img src="./assets/github-card.svg" width="92%"/>
+</div>
+
+### Competitive Programming
+
+- 💯 180+ LeetCode Problems
+- 💻 Primary Language: C++
+- 📚 Consistently learning Data Structures & Algorithms
+- ⚙️ Interested in Backend & System Design
+
+---
+
+# GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PREPMND&show_icons=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=PREPMND&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PREPMND&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+# Current Focus
+
+```text
+✓ Backend Engineering
+
+✓ Distributed Systems
+
+✓ System Design
+
+✓ Docker
+
+✓ Redis
+
+✓ Production-ready APIs
+```
+
+---
+
+<div align="center">
+
+### Let's Connect 🤝
+
+<a href="YOUR_LINKEDIN_URL">LinkedIn</a> •
+<a href="https://github.com/PREPMND">GitHub</a> •
+<a href="YOUR_LEETCODE_URL">LeetCode</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="./assets/footer.svg" width="100%"/>
+
+</div>
 ---
 
 ## Tech Stack
