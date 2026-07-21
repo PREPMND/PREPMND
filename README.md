@@ -87,28 +87,66 @@ Repository
 https://github.com/PREPMND/PREPWatch
 
 ---
-## Technology Stack
-
-<div align="center">
+## Engineering Stack
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=cpp,c,js,python" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"/>
+</p>
 
-### Backend
+`C++` • `JavaScript` • `Python`
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis,docker" />
+---
 
 ### Frontend
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
+<p>
+  <img src="https://cdn.simpleicons.org/react" width="24"/>
+  <img src="https://cdn.simpleicons.org/tailwindcss" width="24"/>
+  <img src="https://cdn.simpleicons.org/tanstackquery" width="24"/>
+</p>
 
-### Tools
+`React` • `Tailwind CSS` • `TanStack Query`
 
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode" />
+---
 
-</div>
+### Backend
 
+<p>
+  <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
+  <img src="https://cdn.simpleicons.org/express" width="24"/>
+  <img src="https://cdn.simpleicons.org/socketdotio" width="24"/>
+</p>
+
+`Node.js` • `Express.js` • `Socket.IO`
+
+---
+
+### Database
+
+<p>
+  <img src="https://cdn.simpleicons.org/mongodb" width="24"/>
+  <img src="https://cdn.simpleicons.org/redis" width="24"/>
+  <img src="https://cdn.simpleicons.org/elasticsearch" width="24"/>
+</p>
+
+`MongoDB` • `Redis` • `Elasticsearch`
+
+---
+
+### Infrastructure
+
+<p>
+  <img src="https://cdn.simpleicons.org/docker" width="24"/>
+  <img src="https://cdn.simpleicons.org/git" width="24"/>
+  <img src="https://cdn.simpleicons.org/cloudinary" width="24"/>
+  <img src="https://cdn.simpleicons.org/postman" width="24"/>
+</p>
+
+`Docker` • `Git` • `Cloudinary` • `Postman`
 ---
 
 ## Core Competencies
