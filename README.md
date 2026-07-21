@@ -45,49 +45,52 @@ I build full-stack applications with a growing focus on **backend systems and ap
 
 </div>
 
-## `> engineering_stack`
+## 💻 Engineering Stack
 
-<div align="center">
-<img
-src="./assets/stack.svg"
-width="100%"
-alt="Srijan Shukla engineering stack"
-/>
+<table>
+<tr>
+<td valign="top" width="25%">
 
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=cpp,js,c,python,nodejs,express,react,mongodb,redis,docker&theme=dark" />
-<br/><br/>
-
+### Languages
 <p align="center">
-
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white&labelColor=010101"/>
-&nbsp;
-<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white&labelColor=E11D48"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white&labelColor=243B9F"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/JWT-FB015B?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=D9004F"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Axios-671DDF?style=for-the-badge&logo=axios&logoColor=white&labelColor=4F16B3"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Multer-FFB000?style=for-the-badge&logoColor=111827&labelColor=E69F00"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0891B2"/>
-&nbsp;
-<img src="https://img.shields.io/badge/REST_API-2563EB?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=1D4ED8"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Cloud_Media_Pipeline-F97316?style=for-the-badge&logo=cloudinary&logoColor=white&labelColor=EA580C"/>
-
+<img src="https://skillicons.dev/icons?i=cpp,js,c,python&theme=dark" />
 </p>
-</div>
 
-</div>
-<br/>
+</td>
+
+<td valign="top" width="25%">
+
+### Frontend
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" /><br/><br/>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+</p>
+
+</td>
+
+<td valign="top" width="25%">
+
+### Backend
+<p align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" /><br/><br/>
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio"/>
+<img src="https://img.shields.io/badge/JWT-black?style=flat-square"/>
+<img src="https://img.shields.io/badge/REST_API-2563EB?style=flat-square"/>
+</p>
+
+</td>
+
+<td valign="top" width="25%">
+
+### Database & DevOps
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mongodb,redis,docker,git,github&theme=dark" /><br/><br/>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary"/>
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
