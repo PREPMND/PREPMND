@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#09090B"/>
+    <stop offset="55%" stop-color="#111827"/>
+    <stop offset="100%" stop-color="#18181B"/>
+  </linearGradient>
+
+  <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="50%" stop-color="#14B8A6"/>
+    <stop offset="100%" stop-color="#F97316"/>
+  </linearGradient>
+
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="55"/>
+  </filter>
+
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#2A2A2F" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="28" fill="url(#grid)" opacity="0.35"/>
+
+<circle cx="1030" cy="70" r="120" fill="#8B5CF6" opacity="0.16" filter="url(#blur)"/>
+<circle cx="250" cy="300" r="110" fill="#14B8A6" opacity="0.14" filter="url(#blur)"/>
+<circle cx="860" cy="280" r="90" fill="#F97316" opacity="0.12" filter="url(#blur)"/>
+
+<text x="80" y="105" fill="#FAFAFA"
+font-size="50"
+font-family="Segoe UI, Arial, sans-serif"
+font-weight="700">
+Srijan Shukla
+</text>
+
+<text x="80" y="145"
+fill="#D4D4D8"
+font-size="23"
+font-family="Segoe UI, Arial, sans-serif">
+Backend Engineer • Full Stack Developer
+</text>
+
+<text x="80" y="190"
+fill="#A1A1AA"
+font-size="18"
+font-family="Segoe UI, Arial, sans-serif">
+Building reliable backend systems, real-time applications and scalable APIs.
+</text>
+
+<text x="80" y="220"
+fill="#71717A"
+font-size="16"
+font-family="Segoe UI, Arial, sans-serif">
+Node.js · Express · Redis · Docker · MongoDB · React
+</text>
+
+<rect x="80" y="275" width="160" height="40" rx="20" fill="#18181B" stroke="#2F2F35"/>
+<text x="108" y="300" fill="#FAFAFA" font-size="15" font-family="Segoe UI, Arial">Open to Internships</text>
+
+<line x1="0" y1="356" x2="1200" y2="356" stroke="url(#line)" stroke-width="4"/>
+</svg>

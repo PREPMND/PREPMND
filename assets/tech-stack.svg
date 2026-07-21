@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="100%" stop-color="#17181D"/>
+</linearGradient>
+<linearGradient id="acc" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#F97316"/>
+</linearGradient>
+<style>
+.t{font:700 28px 'Segoe UI',Arial;fill:#FAFAFA}
+.h{font:600 18px 'Segoe UI',Arial;fill:#D4D4D8}
+.b{font:16px 'Segoe UI',Arial;fill:#A1A1AA}
+</style>
+</defs>
+<rect width="1000" height="540" rx="28" fill="url(#bg)"/>
+<text x="60" y="60" class="t">Engineering Stack</text>
+<line x1="60" y1="80" x2="940" y2="80" stroke="#2B2D33"/>
+
+<g transform="translate(60,120)">
+<rect width="190" height="150" rx="18" fill="#111318" stroke="#2E3138"/>
+<text x="20" y="35" class="h">Languages</text>
+<text x="20" y="70" class="b">C++</text>
+<text x="20" y="95" class="b">JavaScript</text>
+<text x="20" y="120" class="b">Python</text>
+<text x="110" y="70" class="b">C</text>
+</g>
+
+<g transform="translate(285,120)">
+<rect width="190" height="150" rx="18" fill="#111318" stroke="#2E3138"/>
+<text x="20" y="35" class="h">Frontend</text>
+<text x="20" y="70" class="b">React</text>
+<text x="20" y="95" class="b">Tailwind CSS</text>
+<text x="20" y="120" class="b">TanStack Query</text>
+</g>
+
+<g transform="translate(510,120)">
+<rect width="190" height="150" rx="18" fill="#111318" stroke="#2E3138"/>
+<text x="20" y="35" class="h">Backend</text>
+<text x="20" y="70" class="b">Node.js</text>
+<text x="20" y="95" class="b">Express</text>
+<text x="20" y="120" class="b">Socket.IO • JWT</text>
+</g>
+
+<g transform="translate(735,120)">
+<rect width="205" height="150" rx="18" fill="#111318" stroke="#2E3138"/>
+<text x="20" y="35" class="h">Data & DevOps</text>
+<text x="20" y="70" class="b">MongoDB</text>
+<text x="20" y="95" class="b">Redis</text>
+<text x="20" y="120" class="b">Docker • Cloudinary</text>
+</g>
+
+<rect x="60" y="320" width="880" height="150" rx="20" fill="#111318" stroke="#2E3138"/>
+<text x="90" y="360" class="h">Core Focus</text>
+<text x="90" y="395" class="b">• Backend Architecture</text>
+<text x="90" y="420" class="b">• REST APIs & Authentication</text>
+<text x="90" y="445" class="b">• Real-time Systems</text>
+<text x="470" y="395" class="b">• Caching with Redis</text>
+<text x="470" y="420" class="b">• Containerization with Docker</text>
+<text x="470" y="445" class="b">• Problem Solving (C++)</text>
+
+<line x1="0" y1="536" x2="1000" y2="536" stroke="url(#acc)" stroke-width="4"/>
+</svg>
