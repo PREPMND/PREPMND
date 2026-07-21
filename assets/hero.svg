@@ -1,0 +1,116 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="45%" stop-color="#151821"/>
+<stop offset="100%" stop-color="#101828"/>
+</linearGradient>
+
+<linearGradient id="accent" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#F97316"/>
+</linearGradient>
+
+<filter id="blur">
+<feGaussianBlur stdDeviation="70"/>
+</filter>
+
+</defs>
+
+<rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+
+<circle cx="1050" cy="70" r="120"
+fill="#8B5CF6"
+opacity=".15"
+filter="url(#blur)"/>
+
+<circle cx="220" cy="260" r="110"
+fill="#14B8A6"
+opacity=".12"
+filter="url(#blur)"/>
+
+<circle cx="900" cy="250" r="90"
+fill="#F97316"
+opacity=".10"
+filter="url(#blur)"/>
+
+<text
+x="70"
+y="105"
+fill="white"
+font-size="48"
+font-family="Inter,Segoe UI"
+font-weight="700">
+
+Srijan Shukla
+
+</text>
+
+<text
+x="70"
+y="150"
+fill="#C7CBD4"
+font-size="24"
+font-family="Inter">
+
+Backend Engineer · Full Stack Developer
+
+</text>
+
+<text
+x="70"
+y="205"
+fill="#8E95A5"
+font-size="18"
+font-family="Inter">
+
+Building APIs · Real-time Systems · Distributed Applications
+
+</text>
+
+<rect
+x="70"
+y="245"
+width="105"
+height="34"
+rx="17"
+fill="#1E293B"/>
+
+<text
+x="90"
+y="267"
+fill="#F8FAFC"
+font-size="15"
+font-family="Inter">
+
+Node.js
+
+</text>
+
+<rect
+x="190"
+y="245"
+width="92"
+height="34"
+rx="17"
+fill="#1E293B"/>
+
+<text
+x="215"
+y="267"
+fill="#F8FAFC"
+font-size="15">
+
+Redis
+
+</text>
+
+<rect
+x="295"
+y="245"
+width="102"
+height="34"
+rx="17"
