@@ -87,6 +87,40 @@ Repository
 https://github.com/PREPMND/PREPWatch
 
 ---
+## Technology Stack
+
+<div align="center">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=cpp,c,js,python" />
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,redis,docker" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
+
+### Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode" />
+
+</div>
+
+---
+
+## Core Competencies
+
+- Backend API Development
+- Authentication & Authorization
+- Database Modeling
+- Real-time Systems
+- Client-side Applications
+- Performance Optimization
+- RESTful Services
+- Containerized Development
 
 # Coding
 
