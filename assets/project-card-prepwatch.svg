@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="100%" stop-color="#17181D"/>
+</linearGradient>
+<linearGradient id="accent" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#F59E0B"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#6366F1"/>
+</linearGradient>
+<style>
+.t{font:700 34px 'Segoe UI',Arial;fill:#FAFAFA}
+.h{font:600 20px 'Segoe UI',Arial;fill:#E4E4E7}
+.b{font:16px 'Segoe UI',Arial;fill:#A1A1AA}
+.c{font:15px 'Segoe UI',Arial;fill:#D4D4D8}
+</style>
+</defs>
+
+<rect width="900" height="460" rx="28" fill="url(#bg)"/>
+
+<circle cx="760" cy="85" r="70" fill="#6366F1" opacity=".12"/>
+<circle cx="140" cy="370" r="60" fill="#14B8A6" opacity=".10"/>
+
+<text x="55" y="65" class="t">PREPWatch</text>
+<text x="55" y="98" class="b">Movie discovery application focused on performance and server-state management.</text>
+
+<line x1="55" y1="120" x2="845" y2="120" stroke="#2D2F35"/>
+
+<rect x="55" y="150" width="360" height="220" rx="18" fill="#111318" stroke="#2D2F35"/>
+<text x="80" y="185" class="h">Highlights</text>
+<text x="82" y="220" class="c">• TMDB API Integration</text>
+<text x="82" y="250" class="c">• TanStack Query Caching</text>
+<text x="82" y="280" class="c">• Infinite Scrolling</text>
+<text x="82" y="310" class="c">• Persistent Favourites</text>
+<text x="82" y="340" class="c">• 90+ Lighthouse Score</text>
+
+<rect x="470" y="150" width="375" height="220" rx="18" fill="#111318" stroke="#2D2F35"/>
+<text x="495" y="185" class="h">Tech</text>
+<text x="495" y="220" class="c">React</text>
+<text x="495" y="250" class="c">TanStack Query</text>
+<text x="495" y="280" class="c">Tailwind CSS</text>
+<text x="495" y="310" class="c">React Router</text>
+<text x="495" y="340" class="c">Axios · TMDB API</text>
+
+<line x1="0" y1="456" x2="900" y2="456" stroke="url(#accent)" stroke-width="4"/>
+</svg>

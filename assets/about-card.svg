@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="100%" stop-color="#17181D"/>
+</linearGradient>
+<linearGradient id="accent" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#F97316"/>
+</linearGradient>
+<style>
+.title{font:700 34px 'Segoe UI',Arial;fill:#FAFAFA}
+.head{font:600 18px 'Segoe UI',Arial;fill:#E4E4E7}
+.body{font:16px 'Segoe UI',Arial;fill:#A1A1AA}
+.small{font:15px 'Segoe UI',Arial;fill:#D4D4D8}
+</style>
+</defs>
+
+<rect width="900" height="420" rx="28" fill="url(#bg)"/>
+
+<circle cx="760" cy="70" r="65" fill="#8B5CF6" opacity=".14"/>
+<circle cx="150" cy="340" r="60" fill="#14B8A6" opacity=".10"/>
+
+<text x="55" y="65" class="title">About Me</text>
+
+<line x1="55" y1="82" x2="845" y2="82" stroke="#2D2F35"/>
+
+<text x="55" y="120" class="body">
+Computer Science undergraduate passionate about backend engineering,
+</text>
+
+<text x="55" y="148" class="body">
+distributed systems and solving real-world software problems.
+</text>
+
+<rect x="55" y="185" width="360" height="165" rx="18" fill="#111318" stroke="#2D2F35"/>
+<text x="78" y="218" class="head">Currently Exploring</text>
+
+<text x="80" y="255" class="small">• Scalable REST APIs</text>
+<text x="80" y="285" class="small">• Redis & Caching</text>
+<text x="80" y="315" class="small">• Docker & Deployment</text>
+
+<rect x="470" y="185" width="375" height="165" rx="18" fill="#111318" stroke="#2D2F35"/>
+
+<text x="492" y="218" class="head">Engineering Interests</text>
+
+<text x="495" y="255" class="small">Backend Architecture</text>
+<text x="495" y="282" class="small">Real-time Systems</text>
+<text x="495" y="309" class="small">System Design</text>
+<text x="495" y="336" class="small">Problem Solving (C++)</text>
+
+<line x1="0" y1="416" x2="900" y2="416" stroke="url(#accent)" stroke-width="4"/>
+</svg>

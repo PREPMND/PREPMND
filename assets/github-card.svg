@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="100%" stop-color="#18181B"/>
+</linearGradient>
+<linearGradient id="acc" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#F59E0B"/>
+</linearGradient>
+<style>
+.t{font:700 30px 'Segoe UI',Arial;fill:#FAFAFA}
+.h{font:600 18px 'Segoe UI',Arial;fill:#E5E7EB}
+.b{font:16px 'Segoe UI',Arial;fill:#A1A1AA}
+.n{font:700 42px 'Segoe UI',Arial;fill:#FAFAFA}
+</style>
+</defs>
+
+<rect width="1000" height="420" rx="28" fill="url(#bg)"/>
+
+<text x="60" y="60" class="t">GitHub & Coding Progress</text>
+<line x1="60" y1="80" x2="940" y2="80" stroke="#2D2F35"/>
+
+<rect x="60" y="120" width="260" height="220" rx="20" fill="#111318" stroke="#2D2F35"/>
+<text x="85" y="155" class="h">LeetCode</text>
+<text x="85" y="220" class="n">180+</text>
+<text x="85" y="255" class="b">Problems Solved</text>
+
+<rect x="370" y="120" width="260" height="220" rx="20" fill="#111318" stroke="#2D2F35"/>
+<text x="395" y="155" class="h">Primary Language</text>
+<text x="395" y="220" class="n">C++</text>
+<text x="395" y="255" class="b">Data Structures & Algorithms</text>
+
+<rect x="680" y="120" width="260" height="220" rx="20" fill="#111318" stroke="#2D2F35"/>
+<text x="705" y="155" class="h">Current Goal</text>
+<text x="705" y="205" class="b">Backend Engineering</text>
+<text x="705" y="235" class="b">System Design</text>
+<text x="705" y="265" class="b">Open Source</text>
+
+<line x1="0" y1="416" x2="1000" y2="416" stroke="url(#acc)" stroke-width="4"/>
+</svg>

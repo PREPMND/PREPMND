@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0B0B0F"/>
+<stop offset="100%" stop-color="#18181B"/>
+</linearGradient>
+<linearGradient id="g" x1="0%" x2="100%">
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="50%" stop-color="#14B8A6"/>
+<stop offset="100%" stop-color="#F59E0B"/>
+</linearGradient>
+<style>
+.t{font:700 26px 'Segoe UI',Arial;fill:#FAFAFA}
+.s{font:15px 'Segoe UI',Arial;fill:#A1A1AA}
+</style>
+</defs>
+<rect width="1000" height="180" rx="24" fill="url(#bg)"/>
+<text x="500" y="72" text-anchor="middle" class="t">Thanks for stopping by!</text>
+<text x="500" y="102" text-anchor="middle" class="s">Backend • Full Stack • Always Learning</text>
+<text x="500" y="132" text-anchor="middle" class="s">GitHub • LinkedIn • LeetCode</text>
+<line x1="40" y1="165" x2="960" y2="165" stroke="url(#g)" stroke-width="4"/>
+</svg>
