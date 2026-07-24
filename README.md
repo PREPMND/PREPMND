@@ -117,7 +117,7 @@ https://github.com/PREPMND/PREPWatch
 
 <p>
   <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
-    <img src="https://cdn.simpleicons.org/express/FFFFFF" widht="24" />
+    <img src="https://cdn.simpleicons.org/expressdotjs/FFFFFF" width="24" />
       <img src="https://cdn.simpleicons.org/socketdotio/FFFFFF" width="24"/>
   
 </p>
@@ -148,6 +148,7 @@ https://github.com/PREPMND/PREPWatch
 </p>
 
 `Docker` • `Git` • `Cloudinary` • `Postman`
+
 ---
 
 ## Core Competencies
