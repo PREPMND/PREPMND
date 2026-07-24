@@ -94,7 +94,7 @@ https://github.com/PREPMND/PREPWatch
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg/FF4154" color="green" width="24"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg/FF4154" width="24"/>
 </p>
 
 `C++` • `JavaScript` • `Python`
@@ -117,7 +117,7 @@ https://github.com/PREPMND/PREPWatch
 
 <p>
   <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
-    <img src="https://cdn.simpleicons.org/express/FFFFFF" />
+    <img src="https://cdn.simpleicons.org/express/FFFFFF" widht="24" />
       <img src="https://cdn.simpleicons.org/socketdotio/FFFFFF" width="24"/>
   
 </p>
