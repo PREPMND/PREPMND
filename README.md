@@ -106,7 +106,7 @@ https://github.com/PREPMND/PREPWatch
 <p>
   <img src="https://cdn.simpleicons.org/react" width="24"/>
   <img src="https://cdn.simpleicons.org/tailwindcss" width="24"/>
-  <img src="https://simpleicons.org/icons/tanstack.svg" width="24"/>
+  <img src="https://cdn.simpleicons.org/tanstack/00FF00" width="24"/>
 </p>
 
 `React` • `Tailwind CSS` • `TanStack Query`
@@ -117,8 +117,8 @@ https://github.com/PREPMND/PREPWatch
 
 <p>
   <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
-    <img src="https://simpleicons.org/icons/express.svg" width="24"/>
-      <img src="https://simpleicons.org/icons/socketdotio.svg" width="24"/>
+    <img src="https://cdn.simpleicons.org/express/FFFFFF" />
+      <img src="https://cdn.simpleicons.org/socketdotio/FFFFFF" width="24"/>
   
 </p>
 
