@@ -117,8 +117,8 @@ https://github.com/PREPMND/PREPWatch
 
 <p>
   <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
-    <img src="https://cdn.simpleicons.org/expressdotjs" width="24"/>
-      <img src="https://cdn.simpleicons.org/nodedotjs" width="24"/>
+    <img src="https://simpleicons.org/icons/express.svg" width="24"/>
+      <img src="https://simpleicons.org/socketdotio" width="24"/>
   
 </p>
 
