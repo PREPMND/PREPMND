@@ -1,113 +1,192 @@
-<div align="center">
+<div align="center">Hi 👋 I'm Srijan Shukla
 
-<img src="./assets/hero.svg" width="100%" alt="Hero"/>
+Backend Engineer • Full-Stack Developer • Open Source Builder
 
-# Srijan Shukla
+"I enjoy building scalable backend systems, developer tools, and infrastructure that developers actually like using."
 
-Backend Engineer • Full Stack Developer • CSE Undergraduate
+""Portfolio" (https://img.shields.io/badge/Portfolio-Coming%20Soon-black?style=for-the-badge)" (#)
+["NPM" (https://img.shields.io/badge/NPM-@preplabs%2Fvalidator-CB3837?style=for-the-badge&logo=npm)]
+["GitHub followers" (https://img.shields.io/github/followers/PREPMND?style=for-the-badge)]
+["Profile Views" (https://komarev.com/ghpvc/?username=PREPMND&style=for-the-badge)]
 
-<a href="https://github.com/PREPMND">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-</a>
+</div>---
 
-<a href="YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
+⚡ About Me
 
-<a href="YOUR_LEETCODE">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black"/>
-</a>
+const srijan = {
+    role: "Backend & Full-Stack Developer",
 
-</div>
+    currentlyBuilding: [
+        "Production-grade Backend Projects",
+        "Developer Tools",
+        "Infrastructure Projects",
+        "@preplabs/validator"
+    ],
+
+    interestedIn: [
+        "Backend Engineering",
+        "Distributed Systems",
+        "System Design",
+        "Cloud Infrastructure",
+        "Open Source"
+    ],
+
+    currentlyLearning: [
+        "NestJS",
+        "Docker",
+        "PostgreSQL",
+        "System Design"
+    ],
+
+    funFact: "I love building tools that make developers' lives easier."
+}
 
 ---
 
-# Featured Project
+🛠 Tech Stack
 
-<div align="center">
+Languages
 
-<img src="./assets/project-card-preytweet.svg" width="95%" alt="PREYTweet"/>
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,ts,js,python,c"/>
+</p>Backend
 
-</div>
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs"/>
+</p>- REST APIs
+- Socket.IO
+- Better Auth
+- JWT Authentication
+- Rate Limiting
+- API Design
 
-## PREYTweet
+---
 
-Backend-first social media platform built with production-oriented architecture.
+Frontend
 
-### Highlights
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind"/>
+</p>- TanStack Query
+
+---
+
+Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis"/>
+</p>- Prisma ORM
+- Drizzle ORM
+- Neon
+
+---
+
+Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman"/>
+</p>---
+
+🚀 Featured Projects
+
+🐦 PREYTweet
+
+Production-style Full Stack Social Media Platform
+
+✨ Highlights
 
 - JWT Authentication
-- Refresh Token Authentication
+- Refresh Token Rotation
 - Redis Caching
-- Socket.IO Real-time Messaging
+- Rate Limiting
+- Real-time Messaging
+- Socket.IO
 - Dockerized Backend
-- Cloudinary Media Pipeline
+- Infinite Scrolling
 - Aggregation Pipelines
-- RESTful API Design
-
-### Tech Stack
-
-`Node.js` • `Express.js` • `MongoDB` • `Redis` • `Socket.IO` • `Docker` • `Cloudinary`
-
-**Repository**
-
-https://github.com/PREPMND/ytweet
 
 ---
 
-# Project
+📦 @preplabs/validator
 
-<div align="center">
+A lightweight TypeScript Validation Library published on npm.
 
-<img src="./assets/project-card-prepwatch.svg" width="95%" alt="PREPWatch"/>
+Features
 
-</div>
+- Fluent Builder API
+- Zero Runtime Dependencies
+- Safe Parsing
+- Exception Validation
+- Regex Utilities
+- Type-safe
 
-## PREPWatch
+npm install @preplabs/validator
 
-Movie discovery platform built using modern React architecture.
+---
 
-### Features
+🎬 PREPWatch
 
-- TMDB API Integration
-- Infinite Scroll
+Movie Discovery Platform
+
 - Search
-- Favorites
+- Dynamic Routing
+- Trailers
+- Cast
+- Favourites
 - TanStack Query
-- Responsive UI
-- Lazy Loading
-- Optimized API Fetching
-
-### Tech Stack
-
-`React` • `TanStack Query` • `Tailwind CSS` • `Axios`
-
-Repository
-
-https://github.com/PREPMND/PREPWatch
-
----
-## Engineering Stack
-
-### Languages
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="24"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg/FF4154" width="24"/>
-</p>
-
-`C++` • `JavaScript` • `Python`
+- Lighthouse 90+
 
 ---
 
-### Frontend
+📈 GitHub Analytics
 
-<p>
-  <img src="https://cdn.simpleicons.org/react" width="24"/>
-  <img src="https://cdn.simpleicons.org/tailwindcss" width="24"/>
-  <img src="https://cdn.simpleicons.org/tanstack/00FF00" width="24"/>
-</p>
+<p align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=PREPMND&show_icons=true&theme=tokyonight&hide_border=true"/><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=PREPMND&theme=tokyonight&hide_border=true"/></p><p align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PREPMND&layout=compact&theme=tokyonight&hide_border=true"/></p>---
+
+🧠 Problem Solving
+
+✔ 200+ LeetCode Problems
+
+Arrays
+Binary Search
+Hashing
+Recursion
+Stacks
+Queues
+Trees
+Graphs
+Greedy
+Dynamic Programming
+
+---
+
+🗺 Current Roadmap
+
+✅ Full Stack Applications
+
+✅ Open Source npm Package
+
+🔄 API Gateway
+
+🔄 Infrastructure Platform
+
+🔄 Distributed Systems
+
+🎯 High Performance Backend Engineering
+
+---
+
+📬 Connect With Me
+
+<p><a href="mailto:pretest0505@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a><a href="https://github.com/PREPMND">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a><a href="YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a></p>---
+
+<div align="center">⭐ Building software one project at a time.
+
+</div></p>
 
 `React` • `Tailwind CSS` • `TanStack Query`
 
