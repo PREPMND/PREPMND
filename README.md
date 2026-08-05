@@ -1,148 +1,144 @@
-<div align="center">Hi 👋 I'm Srijan Shukla
+<h1 align="center">Hi 👋, I'm Srijan Shukla</h1>
 
-Backend Engineer • Full-Stack Developer • Open Source Builder
+<h3 align="center">
+Backend Engineer • Full Stack Developer • Open Source Builder
+</h3>
 
-"I enjoy building scalable backend systems, developer tools, and infrastructure that developers actually like using."
-
-""Portfolio" (https://img.shields.io/badge/Portfolio-Coming%20Soon-black?style=for-the-badge)" (#)
-["NPM" (https://img.shields.io/badge/NPM-@preplabs%2Fvalidator-CB3837?style=for-the-badge&logo=npm)]
-["GitHub followers" (https://img.shields.io/github/followers/PREPMND?style=for-the-badge)]
-["Profile Views" (https://komarev.com/ghpvc/?username=PREPMND&style=for-the-badge)]
-
-</div>---
-
-⚡ About Me
-
-const srijan = {
-    role: "Backend & Full-Stack Developer",
-
-    currentlyBuilding: [
-        "Production-grade Backend Projects",
-        "Developer Tools",
-        "Infrastructure Projects",
-        "@preplabs/validator"
-    ],
-
-    interestedIn: [
-        "Backend Engineering",
-        "Distributed Systems",
-        "System Design",
-        "Cloud Infrastructure",
-        "Open Source"
-    ],
-
-    currentlyLearning: [
-        "NestJS",
-        "Docker",
-        "PostgreSQL",
-        "System Design"
-    ],
-
-    funFact: "I love building tools that make developers' lives easier."
-}
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=1200&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+Developer+Tools;Backend+Engineering;Node.js+%7C+TypeScript+%7C+PostgreSQL;Docker+%7C+System+Design+%7C+Open+Source"/>
+</p>
 
 ---
 
-🛠 Tech Stack
+## 👨‍💻 About Me
 
-Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=cpp,ts,js,python,c"/>
-</p>Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs"/>
-</p>- REST APIs
-- Socket.IO
-- Better Auth
-- JWT Authentication
-- Rate Limiting
-- API Design
+- 🎓 Computer Science Undergraduate at **MAIT Delhi**
+- ⚡ Backend-focused developer passionate about building scalable APIs, developer tools and infrastructure.
+- 📦 Creator of **@preplabs/validator**
+- 🌱 Currently exploring **NestJS, Docker, PostgreSQL, System Design and Distributed Systems**
+- 🎯 Goal: Build production-grade backend systems and infrastructure.
 
 ---
 
-Frontend
+## 🛠 Tech Stack
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind"/>
-</p>- TanStack Query
+<p align="center">
 
----
+<img src="https://skillicons.dev/icons?i=cpp,ts,js,python,c" />
 
-Databases
+<br/>
 
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis"/>
-</p>- Prisma ORM
-- Drizzle ORM
-- Neon
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,react,nextjs,tailwind" />
 
----
+<br/>
 
-Tools
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma,docker,git,github,linux" />
 
-<p>
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman"/>
-</p>---
-
-🚀 Featured Projects
-
-🐦 PREYTweet
-
-Production-style Full Stack Social Media Platform
-
-✨ Highlights
-
-- JWT Authentication
-- Refresh Token Rotation
-- Redis Caching
-- Rate Limiting
-- Real-time Messaging
-- Socket.IO
-- Dockerized Backend
-- Infinite Scrolling
-- Aggregation Pipelines
+</p>
 
 ---
 
-📦 @preplabs/validator
+# 🚀 Featured Projects
 
-A lightweight TypeScript Validation Library published on npm.
+<table>
+<tr>
 
-Features
+<td width="33%" valign="top">
+
+### 📦 @preplabs/validator
+
+Lightweight TypeScript validation library.
+
+**Highlights**
 
 - Fluent Builder API
 - Zero Runtime Dependencies
 - Safe Parsing
 - Exception Validation
-- Regex Utilities
 - Type-safe
 
-npm install @preplabs/validator
+**Tech**
 
----
+`TypeScript` `npm`
 
-🎬 PREPWatch
+</td>
 
-Movie Discovery Platform
+<td width="33%" valign="top">
+
+### 🐦 PREYTweet
+
+Production-style social media platform.
+
+**Highlights**
+
+- JWT Authentication
+- Socket.IO
+- Redis Caching
+- Rate Limiting
+- Docker
+- Infinite Scroll
+
+**Tech**
+
+`React`
+`Node.js`
+`MongoDB`
+`Redis`
+
+</td>
+
+<td width="33%" valign="top">
+
+### 🎬 PREPWatch
+
+Movie Discovery Platform.
+
+**Highlights**
 
 - Search
-- Dynamic Routing
 - Trailers
-- Cast
-- Favourites
+- Dynamic Routing
 - TanStack Query
 - Lighthouse 90+
 
+**Tech**
+
+`React`
+`TMDB`
+`Tailwind`
+
+</td>
+
+</tr>
+</table>
+
 ---
 
-📈 GitHub Analytics
+## 📈 GitHub Stats
 
-<p align="center"><img width="49%" src="https://github-readme-stats.vercel.app/api?username=PREPMND&show_icons=true&theme=tokyonight&hide_border=true"/><img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=PREPMND&theme=tokyonight&hide_border=true"/></p><p align="center"><img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PREPMND&layout=compact&theme=tokyonight&hide_border=true"/></p>---
+<p align="center">
 
-🧠 Problem Solving
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=PREPMND&show_icons=true&theme=tokyonight&hide_border=true"/>
 
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=PREPMND&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+## 📊 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PREPMND&theme=tokyo-night&hide_border=true"/>
+
+</p>
+
+---
+
+## 💻 Problem Solving
+
+```txt
 ✔ 200+ LeetCode Problems
 
 Arrays
