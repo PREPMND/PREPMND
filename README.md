@@ -125,6 +125,8 @@ Movie Discovery Platform.
 
 ---
 
+---
+
 ## 💻 Problem Solving
 
 ```txt
@@ -134,18 +136,18 @@ Arrays
 Binary Search
 Hashing
 Recursion
-Stacks
-Queues
+Stacks & Queues
 Trees
 Graphs
 Greedy
 Dynamic Programming
+```
 
 ---
+
+## 🗺 Current Roadmap
+
 ```txt
-
-🗺 Current Roadmap
-
 ✅ Full Stack Applications
 
 ✅ Open Source npm Package
@@ -157,22 +159,36 @@ Dynamic Programming
 🔄 Distributed Systems
 
 🎯 High Performance Backend Engineering
+```
 
-```txt
-📬 Connect With Me
+---
 
-<p><a href="mailto:pretest0505@gmail.com">
+## 📫 Connect With Me
+
+<p align="center">
+
+<a href="mailto:pretest0505@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a><a href="https://github.com/PREPMND">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a><a href="YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a></p>---
+</a>
 
-<div align="center">⭐ Building software one project at a time.
+<a href="https://github.com/PREPMND">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-</div></p>
+<a href="YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
+<a href="https://www.npmjs.com/package/@preplabs/validator">
+<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
+</a>
 
+</p>
 
+---
 
+<div align="center">
+
+⭐ <b>Building software one project at a time.</b>
+
+</div>
