@@ -1,194 +1,153 @@
-<h1 align="center">Hi 👋, I'm Srijan Shukla</h1>
-
-<h3 align="center">
-Backend Engineer • Full Stack Developer • Open Source Builder
-</h3>
+<h1 align="center">Srijan Shukla</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=1200&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+Developer+Tools;Backend+Engineering;Node.js+%7C+TypeScript+%7C+PostgreSQL;Docker+%7C+System+Design+%7C+Open+Source"/>
+  <strong>Backend Engineer · Full Stack Developer · Open Source Builder</strong>
+</p>
+
+<p align="center">
+  Building backend systems, developer tools, and production-oriented applications.
+</p>
+
+<p align="center">
+  <a href="https://github.com/PREPMND">GitHub</a>
+  ·
+  <a href="YOUR_LINKEDIN">LinkedIn</a>
+  ·
+  <a href="mailto:pretest0505@gmail.com">Email</a>
+  ·
+  <a href="https://www.npmjs.com/package/@preplabs/validator">npm</a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-- 🎓 Computer Science Undergraduate at **MAIT Delhi**
-- ⚡ Backend-focused developer passionate about building scalable APIs, developer tools and infrastructure.
-- 📦 Creator of **@preplabs/validator**
-- 🌱 Currently exploring **NestJS, Docker, PostgreSQL, System Design and Distributed Systems**
-- 🎯 Goal: Build production-grade backend systems and infrastructure.
+Computer Science undergraduate at **MAIT Delhi**, focused on backend engineering
+and systems development.
 
----
+Currently working with **Node.js, TypeScript, NestJS, PostgreSQL, Redis,
+Docker, and Go**, while exploring distributed systems, system design,
+and scalable backend architecture.
 
-## 🛠 Tech Stack
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=cpp,ts,js,python,c" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,react,nextjs,tailwind" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,prisma,docker,git,github,linux" />
-
-</p>
+I enjoy building things from the ground up — from APIs and authentication
+systems to developer tooling and infrastructure.
 
 ---
 
-# 🚀 Featured Projects
+## Stack
 
-<table>
-<tr>
+### Languages
 
-<td width="33%" valign="top">
+`TypeScript` `JavaScript` `Go` `C++` `Python` `C`
 
-### 📦 @preplabs/validator
+### Backend
 
-Lightweight TypeScript validation library.
+`Node.js` `NestJS` `Express.js` `REST APIs` `JWT` `Passport.js`
 
-**Highlights**
+### Databases & Data
 
-- Fluent Builder API
-- Zero Runtime Dependencies
-- Safe Parsing
-- Exception Validation
-- Type-safe
+`PostgreSQL` `MongoDB` `Redis` `TypeORM` `Prisma`
 
-**Tech**
+### Infrastructure
+
+`Docker` `Git` `GitHub` `Linux`
+
+### Frontend
+
+`React` `Next.js` `Tailwind CSS`
+
+### Systems & Architecture
+
+`System Design` `Authentication` `Authorization` `Caching`
+`Rate Limiting` `Background Jobs` `Event-Driven Architecture`
+`Distributed Systems`
+
+---
+
+## Projects
+
+### PREP — Public Reporting & Events Platform
+
+A platform designed to connect citizen-reported challenges with
+research institutions, organizations, communities, and government bodies.
+
+**Built around**
+
+- Modular NestJS backend
+- JWT authentication & authorization
+- Organization membership and organization-level roles
+- PostgreSQL + TypeORM
+- AI-assisted challenge classification
+- Similarity / duplicate detection
+- Media and evidence handling
+- Role-based organization workflows
+- Designed for Redis, queues, and event-driven workflows
+
+`NestJS` `TypeScript` `PostgreSQL` `TypeORM` `Redis` `Docker`
+
+---
+
+### @preplabs/validator
+
+A lightweight, type-safe TypeScript validation library published on npm.
+
+- Fluent builder API
+- Safe parsing
+- Exception validation
+- Zero runtime dependencies
+- Type-safe validation
 
 `TypeScript` `npm`
 
-</td>
+---
 
-<td width="33%" valign="top">
+### PREYTweet
 
-### 🐦 PREYTweet
+Production-oriented social media application exploring real-world
+backend patterns.
 
-Production-style social media platform.
-
-**Highlights**
-
-- JWT Authentication
+- JWT authentication
+- Redis caching
+- Rate limiting
 - Socket.IO
-- Redis Caching
-- Rate Limiting
-- Docker
-- Infinite Scroll
+- Infinite scrolling
+- Dockerized development
 
-**Tech**
+`Node.js` `React` `MongoDB` `Redis` `Socket.IO` `Docker`
 
-`React`
-`Node.js`
-`MongoDB`
-`Redis`
+---
 
-</td>
+### PREPWatch
 
-<td width="33%" valign="top">
+Movie discovery application focused on clean frontend architecture
+and efficient data fetching.
 
-### 🎬 PREPWatch
-
-Movie Discovery Platform.
-
-**Highlights**
-
-- Search
-- Trailers
-- Dynamic Routing
+- Search & discovery
+- Dynamic routing
+- Trailer integration
 - TanStack Query
 - Lighthouse 90+
 
-**Tech**
-
-`React`
-`TMDB`
-`Tailwind`
-
-</td>
-
-</tr>
-</table>
+`React` `TypeScript` `Tailwind CSS` `TanStack Query`
 
 ---
 
+## Problem Solving
 
-## 📊 Contribution Graph
+**200+ LeetCode problems**
 
-<p align="center">
+Currently strengthening:
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PREPMND&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
+`Arrays` · `Hashing` · `Binary Search` · `Stacks & Queues` · `Trees`
+· `Graphs` · `Greedy` · `Dynamic Programming`
 
 ---
 
-## 💻 Problem Solving
+## Currently
 
-```txt
-✔ 200+ LeetCode Problems
-
-Arrays
-Binary Search
-Hashing
-Recursion
-Stacks & Queues
-Trees
-Graphs
-Greedy
-Dynamic Programming
-```
-
----
-
-## 🗺 Current Roadmap
-
-```txt
-✅ Full Stack Applications
-
-✅ Open Source npm Package
-
-🔄 API Gateway
-
-🔄 Infrastructure Platform
-
-🔄 Distributed Systems
-
-🎯 High Performance Backend Engineering
-```
-
----
-
-## 📫 Connect With Me
-
-<p align="center">
-
-<a href="mailto:pretest0505@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/PREPMND">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://www.npmjs.com/package/@preplabs/validator">
-<img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-<div align="center">
-
-⭐ <b>Building software one project at a time.</b>
-
-</div>
+```text
+Backend Engineering        ████████████████████
+System Design              ███████████████
+Distributed Systems        ███████████
+Infrastructure             ███████████
+Open Source                ███████████████
