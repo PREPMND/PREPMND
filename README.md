@@ -1,153 +1,42 @@
-<h1 align="center">Srijan Shukla</h1>
-
 <p align="center">
-  <strong>Backend Engineer · Full Stack Developer · Open Source Builder</strong>
+  <a href="YOUR_PORTFOLIO_URL"><img src="./assets/header.svg" alt="Srijan Shukla — backend engineer" width="100%"></a>
 </p>
 
 <p align="center">
-  Building backend systems, developer tools, and production-oriented applications.
-</p>
-
-<p align="center">
-  <a href="https://github.com/PREPMND">GitHub</a>
-  ·
-  <a href="YOUR_LINKEDIN">LinkedIn</a>
-  ·
+  <a href="YOUR_PORTFOLIO_URL"><b>🖥️ Portfolio — it's a cartoon OS, go poke it</b></a> ·
+  <a href="https://www.linkedin.com/in/prep-srijan/">LinkedIn</a> ·
   <a href="mailto:pretest0505@gmail.com">Email</a>
-  ·
-  <a href="https://www.npmjs.com/package/@preplabs/validator">npm</a>
 </p>
 
----
+<p align="center">
+  <img src="./assets/terminal.svg" alt="ToonOS terminal demo" width="100%">
+</p>
 
-## About
+### 🔧 PREP · *in development* · [case study](YOUR_PORTFOLIO_URL)
+Connects citizen-reported problems with universities, researchers, NGOs and government (SIH26043).  
+Separate NestJS services · org-scoped roles · AI classification + duplicate detection · media service on Cloudinary.  
+`NestJS` `TypeScript` `PostgreSQL` `TypeORM` `JWT`
 
-Computer Science undergraduate at **MAIT Delhi**, focused on backend engineering
-and systems development.
+### 💬 [PREYTweet](https://github.com/PREPMND/ytweet) · *ongoing* · [live](https://preytweet.netlify.app)
+Social app with a backend focus.  
+JWT access/refresh with cookies · role-based auth · Redis caching & Pub/Sub · Socket.IO chat with presence and typing.  
+`Node.js` `Express` `MongoDB` `Redis` `Socket.IO` `Docker`
 
-Currently working with **Node.js, TypeScript, NestJS, PostgreSQL, Redis,
-Docker, and Go**, while exploring distributed systems, system design,
-and scalable backend architecture.
+### ✍️ BlogMate · [live](https://blogmate-plum.vercel.app)
+AI blogging platform where slow work leaves the request.  
+Thumbnails generate in a BullMQ background queue · Better Auth · Drizzle on PostgreSQL · Cloudinary media.  
+`Next.js` `TypeScript` `PostgreSQL` `BullMQ` `Redis`
 
-I enjoy building things from the ground up — from APIs and authentication
-systems to developer tooling and infrastructure.
+### 🧩 [@preplabs/validator](https://github.com/PREPMND/preplabs-validator) · [npm](https://www.npmjs.com/package/@preplabs/validator) · 150+ downloads
+Fluent, zero-dependency TypeScript validation library.  
+`string().min(3).max(20)` · `safeCheck()` → `{ ok, error }` · built-in username/password rules · regex utilities.
 
----
+### 🧠 Mini Redis · *starting*
+A key-value store in Go, from first principles — TCP, concurrent clients, TTL expiration, persistence.
 
-## Stack
-
-### Languages
-
-`TypeScript` `JavaScript` `Go` `C++` `Python` `C`
-
-### Backend
-
-`Node.js` `NestJS` `Express.js` `REST APIs` `JWT` `Passport.js`
-
-### Databases & Data
-
-`PostgreSQL` `MongoDB` `Redis` `TypeORM` `Prisma`
-
-### Infrastructure
-
-`Docker` `Git` `GitHub` `Linux`
-
-### Frontend
-
-`React` `Next.js` `Tailwind CSS`
-
-### Systems & Architecture
-
-`System Design` `Authentication` `Authorization` `Caching`
-`Rate Limiting` `Background Jobs` `Event-Driven Architecture`
-`Distributed Systems`
+### 🎬 PREPWatch · [live](https://prepwatch.netlify.app)
+Movie discovery app — TanStack Query caching, dynamic routing, trailers.
 
 ---
 
-## Projects
-
-### PREP — Public Reporting & Events Platform
-
-A platform designed to connect citizen-reported challenges with
-research institutions, organizations, communities, and government bodies.
-
-**Built around**
-
-- Modular NestJS backend
-- JWT authentication & authorization
-- Organization membership and organization-level roles
-- PostgreSQL + TypeORM
-- AI-assisted challenge classification
-- Similarity / duplicate detection
-- Media and evidence handling
-- Role-based organization workflows
-- Designed for Redis, queues, and event-driven workflows
-
-`NestJS` `TypeScript` `PostgreSQL` `TypeORM` `Redis` `Docker`
-
----
-
-### @preplabs/validator
-
-A lightweight, type-safe TypeScript validation library published on npm.
-
-- Fluent builder API
-- Safe parsing
-- Exception validation
-- Zero runtime dependencies
-- Type-safe validation
-
-`TypeScript` `npm`
-
----
-
-### PREYTweet
-
-Production-oriented social media application exploring real-world
-backend patterns.
-
-- JWT authentication
-- Redis caching
-- Rate limiting
-- Socket.IO
-- Infinite scrolling
-- Dockerized development
-
-`Node.js` `React` `MongoDB` `Redis` `Socket.IO` `Docker`
-
----
-
-### PREPWatch
-
-Movie discovery application focused on clean frontend architecture
-and efficient data fetching.
-
-- Search & discovery
-- Dynamic routing
-- Trailer integration
-- TanStack Query
-- Lighthouse 90+
-
-`React` `TypeScript` `Tailwind CSS` `TanStack Query`
-
----
-
-## Problem Solving
-
-**200+ LeetCode problems**
-
-Currently strengthening:
-
-`Arrays` · `Hashing` · `Binary Search` · `Stacks & Queues` · `Trees`
-· `Graphs` · `Greedy` · `Dynamic Programming`
-
----
-
-## Currently
-
-```text
-Backend Engineering        ████████████████████
-System Design              ███████████████
-Distributed Systems        ███████████
-Infrastructure             ███████████
-Open Source                ███████████████
+**Intern @ Lili Infotech** (video-call service, admin portals) · **Open source:** contributed to Fishman, a Postman alternative (Tauri · Rust) · **200+ LeetCode** · CS @ MAIT Delhi, 2029

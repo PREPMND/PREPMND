@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230" role="img" aria-label="Srijan Shukla — backend engineer, building systems, developer tools and things from the ground up">
+  <style>
+    .t{font-family:'Trebuchet MS',Verdana,sans-serif;font-weight:800}
+    .m{font-family:'Courier New',monospace;font-weight:700}
+    .blink{animation:b 4s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes b{96%{transform:scaleY(.1)}}
+    .sun{animation:s 24s linear infinite;transform-origin:800px 70px}
+    @keyframes s{to{transform:rotate(360deg)}}
+    .bob{animation:o 1s ease-in-out infinite}
+    @keyframes o{50%{transform:translateY(-4px)}}
+  </style>
+  <rect x="4" y="4" width="872" height="222" rx="22" fill="#8fd3ff" stroke="#111" stroke-width="5"/>
+  <path d="M4 170 Q220 120 440 170 T876 160 V204 Q876 226 854 226 H26 Q4 226 4 204Z" fill="#7fd36b" stroke="#111" stroke-width="5"/>
+  <g class="sun">
+    <g fill="#ffb21f" stroke="#111" stroke-width="3">
+      <rect x="795" y="22" width="10" height="16" rx="5"/><rect x="795" y="102" width="10" height="16" rx="5"/>
+      <rect x="752" y="65" width="16" height="10" rx="5"/><rect x="832" y="65" width="16" height="10" rx="5"/>
+    </g>
+  </g>
+  <circle cx="800" cy="70" r="30" fill="#ffd23f" stroke="#111" stroke-width="4"/>
+  <g class="blink"><ellipse cx="790" cy="66" rx="5" ry="7" fill="#fff" stroke="#111" stroke-width="2.5"/><ellipse cx="810" cy="66" rx="5" ry="7" fill="#fff" stroke="#111" stroke-width="2.5"/><circle cx="790" cy="68" r="2.6"/><circle cx="810" cy="68" r="2.6"/></g>
+  <path d="M791 82 Q800 89 809 82" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  <g class="bob">
+    <circle cx="70" cy="58" r="13" fill="#111"/><circle cx="114" cy="58" r="13" fill="#111"/><circle cx="92" cy="86" r="32" fill="#111"/>
+    <path d="M66 94 C66 76 118 76 118 94 C118 112 66 112 66 94Z" fill="#ffd9b0" stroke="#111" stroke-width="3"/>
+    <g class="blink"><ellipse cx="83" cy="90" rx="6" ry="8" fill="#fff" stroke="#111" stroke-width="2.5"/><ellipse cx="101" cy="90" rx="6" ry="8" fill="#fff" stroke="#111" stroke-width="2.5"/><circle cx="83" cy="92" r="3"/><circle cx="101" cy="92" r="3"/></g>
+    <path d="M84 104 Q92 110 100 104" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="150" y="88" class="t" font-size="50" fill="#ff6fb5" stroke="#111" stroke-width="5" paint-order="stroke">Srijan Shukla</text>
+  <text x="152" y="124" class="t" font-size="20" fill="#111">Backend engineer · systems · developer tools · open source</text>
+  <rect x="150" y="140" width="346" height="34" rx="17" fill="#fff59a" stroke="#111" stroke-width="3"/>
+  <text x="168" y="163" class="m" font-size="15" fill="#111">CS @ MAIT Delhi · Intern @ Lili Infotech</text>
+</svg>
