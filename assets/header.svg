@@ -1,33 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230" role="img" aria-label="Srijan Shukla — backend engineer, building systems, developer tools and things from the ground up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="860" height="210" role="img" aria-label="Srijan Shukla — backend, systems, developer tools">
   <style>
-    .t{font-family:'Trebuchet MS',Verdana,sans-serif;font-weight:800}
-    .m{font-family:'Courier New',monospace;font-weight:700}
-    .blink{animation:b 4s steps(1) infinite;transform-box:fill-box;transform-origin:center}
-    @keyframes b{96%{transform:scaleY(.1)}}
-    .sun{animation:s 24s linear infinite;transform-origin:800px 70px}
-    @keyframes s{to{transform:rotate(360deg)}}
-    .bob{animation:o 1s ease-in-out infinite}
-    @keyframes o{50%{transform:translateY(-4px)}}
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Courier New',monospace}
+    .name{font-size:54px;font-weight:800;fill:#f5f1e8}
+    .dim{font-size:15px;fill:#8b8696}
+    .role{font-size:22px;font-weight:700;opacity:0}
+    .r1{fill:#7dffb0;animation:cyc 9s infinite}
+    .r2{fill:#ffd23f;animation:cyc 9s 3s infinite}
+    .r3{fill:#ff8fb8;animation:cyc 9s 6s infinite}
+    @keyframes cyc{0%{opacity:0;transform:translateY(8px)}4%,30%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-8px)}}
+    .cur{animation:blink 1s steps(2) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .eyes{animation:eyes 4s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes eyes{94%{transform:scaleY(.12)}}
+    .look{animation:look 6s ease-in-out infinite}
+    @keyframes look{0%,40%{transform:translate(0,0)}50%,70%{transform:translate(2.5px,0)}80%,100%{transform:translate(-2px,1px)}}
   </style>
-  <rect x="4" y="4" width="872" height="222" rx="22" fill="#8fd3ff" stroke="#111" stroke-width="5"/>
-  <path d="M4 170 Q220 120 440 170 T876 160 V204 Q876 226 854 226 H26 Q4 226 4 204Z" fill="#7fd36b" stroke="#111" stroke-width="5"/>
-  <g class="sun">
-    <g fill="#ffb21f" stroke="#111" stroke-width="3">
-      <rect x="795" y="22" width="10" height="16" rx="5"/><rect x="795" y="102" width="10" height="16" rx="5"/>
-      <rect x="752" y="65" width="16" height="10" rx="5"/><rect x="832" y="65" width="16" height="10" rx="5"/>
+  <defs>
+    <clipPath id="c"><rect x="40" y="40" width="0" height="80"><animate attributeName="width" from="0" to="430" begin="0.3s" dur="2s" fill="freeze" calcMode="discrete" values="0;33;66;99;132;165;198;231;264;297;330;363;396;430"/></rect></clipPath>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7dffb0"/><stop offset=".5" stop-color="#ffd23f"/><stop offset="1" stop-color="#ff8fb8"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="857" height="207" rx="18" fill="#0e0d14" stroke="#2a2833" stroke-width="3"/>
+  <rect x="40" y="186" width="120" height="3" rx="1.5" fill="url(#g)"/>
+  <text x="40" y="44" class="mono dim">~/srijan $ whoami</text>
+  <g clip-path="url(#c)"><text x="40" y="104" class="mono name">Srijan Shukla</text></g>
+  <rect x="44" y="62" width="4" height="50" fill="#7dffb0" class="cur"><animate attributeName="x" begin="0.3s" dur="2s" fill="freeze" calcMode="discrete" values="44;77;110;143;176;209;242;275;308;341;374;407;424;452"/></rect>
+  <text x="40" y="150" class="mono role r1">builds backend services →</text>
+  <text x="40" y="150" class="mono role r2">explores systems in Go →</text>
+  <text x="40" y="150" class="mono role r3">ships developer tools →</text>
+  <g transform="translate(772 92)">
+    <circle r="46" fill="#ffd9b0" stroke="#111" stroke-width="4"/>
+    <g class="eyes">
+      <ellipse cx="-14" cy="-6" rx="10" ry="14" fill="#fff" stroke="#111" stroke-width="3.5"/>
+      <ellipse cx="14" cy="-6" rx="10" ry="14" fill="#fff" stroke="#111" stroke-width="3.5"/>
+      <g class="look"><circle cx="-12" cy="-3" r="5" fill="#111"/><circle cx="16" cy="-3" r="5" fill="#111"/></g>
     </g>
+    <path d="M-12 20 Q0 30 12 20" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
   </g>
-  <circle cx="800" cy="70" r="30" fill="#ffd23f" stroke="#111" stroke-width="4"/>
-  <g class="blink"><ellipse cx="790" cy="66" rx="5" ry="7" fill="#fff" stroke="#111" stroke-width="2.5"/><ellipse cx="810" cy="66" rx="5" ry="7" fill="#fff" stroke="#111" stroke-width="2.5"/><circle cx="790" cy="68" r="2.6"/><circle cx="810" cy="68" r="2.6"/></g>
-  <path d="M791 82 Q800 89 809 82" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
-  <g class="bob">
-    <circle cx="70" cy="58" r="13" fill="#111"/><circle cx="114" cy="58" r="13" fill="#111"/><circle cx="92" cy="86" r="32" fill="#111"/>
-    <path d="M66 94 C66 76 118 76 118 94 C118 112 66 112 66 94Z" fill="#ffd9b0" stroke="#111" stroke-width="3"/>
-    <g class="blink"><ellipse cx="83" cy="90" rx="6" ry="8" fill="#fff" stroke="#111" stroke-width="2.5"/><ellipse cx="101" cy="90" rx="6" ry="8" fill="#fff" stroke="#111" stroke-width="2.5"/><circle cx="83" cy="92" r="3"/><circle cx="101" cy="92" r="3"/></g>
-    <path d="M84 104 Q92 110 100 104" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
-  </g>
-  <text x="150" y="88" class="t" font-size="50" fill="#ff6fb5" stroke="#111" stroke-width="5" paint-order="stroke">Srijan Shukla</text>
-  <text x="152" y="124" class="t" font-size="20" fill="#111">Backend engineer · systems · developer tools · open source</text>
-  <rect x="150" y="140" width="346" height="34" rx="17" fill="#fff59a" stroke="#111" stroke-width="3"/>
-  <text x="168" y="163" class="m" font-size="15" fill="#111">CS @ MAIT Delhi · Intern @ Lili Infotech</text>
+  <text x="772" y="172" text-anchor="middle" class="mono dim">toon os</text>
 </svg>
