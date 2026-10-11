@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="YOUR_PORTFOLIO_URL"><img src="./assets/header.svg" alt="Srijan Shukla — backend engineer" width="100%"></a>
+  <a href="https://prep-srjn.netlify.app"><img src="./assets/header.svg" alt="Srijan Shukla — backend engineer" width="100%"></a>
 </p>
 
 <p align="center">
