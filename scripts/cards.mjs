@@ -14,7 +14,7 @@ for (const p of P) {
   const nodes = p.n.map((name, i) => {
     const [x, y] = POS[i];
     const face = i === 0 ? `<g class="eye"><circle cx="${x - 7}" cy="${y - 1}" r="2.6" fill="#111"/><circle cx="${x + 7}" cy="${y - 1}" r="2.6" fill="#111"/></g>` : '';
-    return `<rect x="${x - 54}" y="${y - 18}" width="108" height="36" rx="10" fill="${i === 0 ? '#ffd9b0' : '#17161f'}" stroke="${i === 0 ? '#111' : p.c}" stroke-width="2"/>` + (i === 0 ? face : `<text x="${x}" y="${y + 5}" class="m n">${esc(name)}</text>`);
+    return `<rect x="${x - 54}" y="${y - 18}" width="108" height="36" rx="10" fill="#17161f" stroke="${p.c}" stroke-width="2"/>` + (false ? face : `<text x="${x}" y="${y + 5}" class="m n">${esc(name)}</text>`);
   }).join('');
   const edges = p.e.map(([a, b], i) => {
     const [x1, y1] = POS[a], [x2, y2] = POS[b];

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" width="520" height="220" role="img" aria-label="Srijan Shukla — backend, systems, developer tools">
+  <style>
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Courier New',monospace}
+    .name{font-size:44px;font-weight:800;fill:#f5f1e8}
+    .dim{font-size:16px;fill:#8b8696}
+    .role{font-size:19px;font-weight:700;opacity:0}
+    .r1{fill:#7dffb0;animation:cyc 9s infinite}
+    .r2{fill:#ffd23f;animation:cyc 9s 3s infinite}
+    .r3{fill:#ff8fb8;animation:cyc 9s 6s infinite}
+    @keyframes cyc{0%{opacity:0}5%,30%{opacity:1}35%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(2) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <defs>
+    <clipPath id="c"><rect x="30" y="50" width="0" height="70"><animate attributeName="width" begin="0.3s" dur="1.8s" fill="freeze" calcMode="discrete" values="0;27;54;81;108;135;162;189;216;243;270;297;324;352"/></rect></clipPath>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7dffb0"/><stop offset=".5" stop-color="#ffd23f"/><stop offset="1" stop-color="#ff8fb8"/></linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="517" height="217" rx="18" fill="#0e0d14" stroke="#2a2833" stroke-width="3"/>
+  <circle cx="26" cy="26" r="6" fill="#ff5f57"/><circle cx="46" cy="26" r="6" fill="#febc2e"/><circle cx="66" cy="26" r="6" fill="#28c840"/>
+  <text x="30" y="70" class="mono dim">~/srijan $ whoami</text>
+  <g clip-path="url(#c)"><text x="30" y="118" class="mono name">Srijan Shukla</text></g>
+  <rect x="34" y="84" width="4" height="42" fill="#7dffb0" class="cur"><animate attributeName="x" begin="0.3s" dur="1.8s" fill="freeze" calcMode="discrete" values="34;61;88;115;142;169;196;223;250;277;304;331;358;388"/></rect>
+  <text x="30" y="160" class="mono role r1">builds backend services</text>
+  <text x="30" y="160" class="mono role r2">explores systems in Go</text>
+  <text x="30" y="160" class="mono role r3">ships developer tools</text>
+  <text x="30" y="194" class="mono dim">MAIT Delhi · intern @ Lili Infotech</text>
+  <rect x="380" y="188" width="110" height="3" rx="1.5" fill="url(#g)"/>
+</svg>
