@@ -1,7 +1,7 @@
-<a href="https://prep-srjn.netlify.app"><img src="./assets/header.svg" alt="Srijan Shukla — backend, systems, developer tools" width="100%"></a>
+<a href="https://srjn.vercel.app"><img src="./assets/header.svg" alt="Srijan Shukla — backend, systems, developer tools" width="100%"></a>
 
 <p align="center">
-  <a href="https://prep-srjn.netlify.app"><img src="https://img.shields.io/badge/portfolio-toon_os-ffd23f?style=for-the-badge&labelColor=0e0d14" alt="Portfolio"></a>
+  <a href="https://srjn.vercel.app"><img src="https://img.shields.io/badge/portfolio-toon_os-ffd23f?style=for-the-badge&labelColor=0e0d14" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/prep-srijan/"><img src="https://img.shields.io/badge/linkedin-prep--srijan-7dffb0?style=for-the-badge&labelColor=0e0d14" alt="LinkedIn"></a>
   <a href="mailto:pretest0505@gmail.com"><img src="https://img.shields.io/badge/email-say_hi-ff8fb8?style=for-the-badge&labelColor=0e0d14" alt="Email"></a>
   <a href="https://www.npmjs.com/package/@preplabs/validator"><img src="https://img.shields.io/badge/npm-@preplabs/validator-b69cff?style=for-the-badge&labelColor=0e0d14" alt="npm"></a>
